@@ -7,5 +7,3 @@ const router = Router();
 router.get('/report', auth, authorize('admin'), adminReport);
 
 export default router;
-
-

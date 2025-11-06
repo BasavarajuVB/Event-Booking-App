@@ -8,5 +8,3 @@ router.get('/', listEvents);
 router.post('/', auth, authorize('admin'), createEvent);
 
 export default router;
-
-

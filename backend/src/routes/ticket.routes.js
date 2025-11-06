@@ -8,5 +8,3 @@ router.post('/book', auth, bookTickets);
 router.patch('/cancel/:id', auth, cancelBooking);
 
 export default router;
-
-

@@ -25,5 +25,3 @@ export function authorize(...roles) {
     next();
   };
 }
-
-
